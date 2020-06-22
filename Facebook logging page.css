@@ -1,0 +1,458 @@
+body {
+	paddign: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+	
+}
+
+.header {
+	background: #3b5998;
+	padding: 10px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.logging-section {
+	margin-right: 100px;
+}	
+
+.fb-logo {
+	margin: 20px 0px 0px 100px;
+}
+
+.logging-section .row {
+	display: inline-block;
+}
+
+.logging-section .row1, .row2 {
+	margin-right: 12px;
+}
+
+.forget-account {
+	margin-left: 160px;
+}
+
+.forget-account a {
+	margin-top: 4px;
+	display: inline-block;
+	font-size: .9em;
+	color:   #bfbfbf;
+	text-decoration: none;
+}
+
+.forget-account a:hover {
+	text-decoration: underline;
+}
+
+.logging-section input {
+	margin-top: 4px;
+}
+
+.logging-section label {
+	color: #d9d9d9;
+}
+
+.logInbutton {
+	background:  #5a7abf;
+	border: none;
+	color: white;
+	font-weight: bold;
+	z-index: 1;
+	padding: 2px 4px;
+	box-shadow: -2px 0 #5a7abf, 
+	            0 2px #5a7abf, 
+				2px 0 #5a7abf, 
+				0 -3px #5a7abf;
+}
+
+.logInbutton:hover {
+	background:   #324b81;
+	box-shadow: 0px 2px 2px 2px  #324b81;
+	cursor: pointer;
+}
+
+.left-side > p {
+	color: #324a81;
+	font-size: 1.2em;
+	font-weight: bold;
+	line-height: 8px;
+	font-family: arial,'sens-serif';
+}
+
+.section {
+	display: flex;
+	background: rgba(223,227,238,0.5); /*#dfe3ee;*/
+}
+
+.left-side {
+	flex: 50%;
+	padding: 50px 100px 0px 150px;
+}
+
+.left-side .logoImg {
+	margin-left: 25px;
+}
+
+.right-side {
+	flex: 50%;
+}
+
+.right-side .topheading {
+	font-size: 2.5em;
+	font-family: arial,'sens-serif';
+	color:  #232c43;
+	margin-bottom: 10px;
+}
+
+.right-side .quick-heading {
+	font-family: arial,'sens-serif';
+	color:  #232c43;
+	font-size: 1.2em;
+	margin-top: 0px;
+}
+
+.right-side input[type=text] {
+	width: 40%;
+	padding: 8px 4px;
+	font-size: 18px;
+	
+	box-sizing: border-box;
+	border: 1px solid rgba(139,157,195,0.7); /*#8b9dc3*/
+	border-radius: 5px;
+	font-weight: 500px;
+}
+
+.right-side input[type=email] {
+	width: 81%;
+	padding: 8px 4px;
+	font-size: 18px;
+	margin-top: 10px;
+	box-sizing: border-box;
+	border: 1px solid rgba(139,157,195,0.7); /*#8b9dc3*/
+	border-radius: 5px;
+	font-weight: 500px;
+	
+}
+
+.right-side input[type=password] {
+	width: 81%;
+	padding: 8px 4px;
+	font-size: 18px;
+	
+	margin-top: 10px;
+	box-sizing: border-box;
+	border: 1px solid rgba(139,157,195,0.7); /*#8b9dc3*/
+	border-radius: 5px;
+	font-weight: 500px;
+	
+}
+
+.right-side [for~=birthday] {
+	color:  #737373;
+	font-size: 18px;
+	margin: 10px 0px 10px 0px;
+	display: inline-block;
+	font-family: arial,'sens-serif';
+}
+
+.right-side [for~=gender] {
+	color:  #737373;
+	font-size: 18px;
+	margin: 10px 0px 15px 0px;
+	display: inline-block;
+	font-family: arial,'sens-serif';
+}
+
+.right-side .selectgender {
+	font-family: Arial;
+	font-size: 18px;
+}
+
+.right-side .data-policy > p {
+	font-size: 10px;
+	line-height: 4px;
+	font-family: arial,'sens-serif';
+	color:  #737373;
+}
+
+.right-side .btn {
+	padding: 7px 60px;
+	background:  #6db34c;
+	border-radius: 5px;
+	border: none;
+	cursor: pointer;
+	font-size: 18px;
+	color: white;
+	box-shadow: 0px 2px 2px 1px #6db34c;
+	margin: 15px 0px 20px 0px;
+}
+
+.footer {
+	margin: 50px 100px 40px 100px;
+}
+
+.right-side .btn:hover {
+	background: #78c64c;
+}
+
+.right-side .policy-link {
+	color: #5877bc;
+}
+
+.footer-link {
+	color: #5877bc;
+	margin-right: 20px;
+	font-size: 14px;
+	text-decoration: none;
+}
+
+.footer-link:hover {
+	text-decoration: underline;
+}
+
+.eng-uk {
+	color:  #737373;
+	font-size: 14px;
+}
+
+.fb-2020 {
+	color: #737373;
+	font-size: 12px;
+	padding-top: 30px;
+	display: inline-block;
+}
+
+.creat-page {
+	color: #737373;
+}
+
+hr {
+	border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+	margin: 0px 20px;
+}
+
+::placeholder {
+	color:   #808080;
+}
+
+select {
+   margin-right: -4px;
+   height: 30px;
+   width: 60px;
+   
+}
+.fas {
+	color: #737373;
+}
+
+
+
+
+
+
+
+.mbl-container {
+	padding: 0px;
+	margin: 0px;
+	font-family:  roboto;
+}	
+
+.mbl-fname-input {
+		width: 100%;
+		height: 25px;
+		border: 1px solid rgba(0,0,0,0.3);
+	}
+
+.mbl-header {
+	background: #3b5998;
+	text-align: center;
+	padding: 12px 20px;
+    color: white;
+	font-size: .8em;
+}
+
+.mbl-section {
+	
+	
+}
+
+.what-nam {
+	font-weight: bold;
+	text-align: center;
+	font-size: 100%;
+}
+
+.enter-nam {
+	text-align: center;
+	font-size: 90%;
+}
+.mbl-name {
+	display: flex;
+	justify-content: space-around;
+	margin: 10px;
+}
+
+
+
+.label-name {
+	font-size: 100%;
+}
+
+.next-button {
+	border: none;
+	display: inline-block;
+	padding: 4px 6em;
+	margin-top: 15px;
+	font-weight: bold;
+	color: white;
+	border-radius: 5px;
+	background: rgb(62, 157, 253);
+	cursor: pointer;
+	
+	box-shadow: -1px 0 rgb(62, 157, 253), 
+	            0 1px rgb(62, 157, 253), 
+				1px 0 rgb(62, 157, 253), 
+				0 -1px rgb(62, 157, 253);
+				 
+	
+}
+
+.mbl-fname label {
+	font-size: 12px;
+}
+
+.mbl-sname label {
+	font-size: 12px;
+}
+
+.mbl-link {
+	text-decoration: none;
+	display: inline-block;
+	font-size: 1em;
+	margin: 20px 0px 0px 10px;
+	color:  #5877bc;
+}
+
+.fa-plus-square {
+	color: #5877bc;
+	text-align: center;
+}
+
+.mbl-footer-link {
+	color: #5877bc;
+	margin-right: 20px;
+	font-size: 14px;
+	text-decoration: none;
+	line-height: 10px;
+}
+
+.mbl-fb-2020 {
+	color: #737373;
+	font-size: 12px;
+	margin-top: 25px;
+	display: inline-block;
+}
+
+.mbl-eng-uk {
+	color:  #737373;
+	font-size: 15px;
+}
+
+
+.mbl-footer {
+	margin-top: 20px;
+	display: flex;
+	justify-content: space-around;
+}
+
+
+
+@media screen and (min-width: 481px) {
+	.mbl-container {
+		display: none;
+	}
+	
+}
+
+@media screen and (max-width: 480px) {
+	.container {
+		display: none;
+	}
+	
+}
+
+@media screen and (max-width: 330px) {
+	.container {
+		display: none;
+	}
+    
+	.mbl-fname-input {
+		width: 80%;
+		height: 20px;
+	}
+	
+	.next-button {
+		padding: 2px 4em;
+	}
+	
+	.mbl-link {
+	font-size: .6em;	
+	}
+	
+	.mbl-eng-uk, .mbl-footer-link {
+		font-size: 11px;
+	}
+	
+}
+
+
+
+  /*
+     
+	@media screen and (max-width: 900px) {
+	  body {
+		  
+	  }
+	}
+	@media screen and (min-width: 600px) and (max-width: 768px) {
+		body {
+			
+		}
+	}
+
+  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
